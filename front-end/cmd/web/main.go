@@ -7,7 +7,7 @@ import (
 	"net/http"
 )
 
-var webPort string = ":8003"
+var webPort string = ":8004"
 
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
